@@ -1,0 +1,23 @@
+# ---- secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- os ----
+.DS_Store
+
+# ---- not published ----
+archive/
+research/
+submission/
+
+# ---- regenerable: rebuilt by lifecycle_simulation.py ----
+single_parent_affordability/lifecycle_panel.csv
+*.zip
